@@ -23,20 +23,20 @@
 // const newArr = arr.join()
 
 // console.log(arr);
-// console.log(typeof newArr);
+console.log(typeof newArr);
 
-//slice and splice
+slice and splice
 
-// console.log("A",arr)
+console.log("A",arr)
 
-// const my1 = arr.slice(1,3)
+const my1 = arr.slice(1,3)
 
-// console.log(my1);
-// console.log("B",arr)
+console.log(my1);
+console.log("B",arr)
 
-// const my2 = arr.splice(1,3)
-// console.log(my2);
-// console.log("C",arr)
+const my2 = arr.splice(1,3)
+console.log(my2);
+console.log("C",arr)
 
 
 
