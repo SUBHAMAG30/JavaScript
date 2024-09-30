@@ -84,13 +84,13 @@ const users = [
 ]
 
 users[0].email
-// console.log(tUser);
+console.log(tUser);
 
-// console.log(Object.keys(tUser));
-// console.log(Object.values(tUser));
-// console.log(Object.entries(tUser));
+console.log(Object.keys(tUser));
+console.log(Object.values(tUser));
+console.log(Object.entries(tUser));
 
-// console.log(tUser.hasOwnProperty('isLoggedIn'));
+console.log(tUser.hasOwnProperty('isLoggedIn'));
 
 // 88888888888888888888888888888888888888888888888888888888888
 
