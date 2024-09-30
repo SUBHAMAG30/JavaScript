@@ -34,8 +34,8 @@ User.greeting2 = function(){
     console.log(`Hello viewers!!, ${this.name}`);
     
 }
-// console.log(User.greeting());
-// console.log(User.greeting2());
+console.log(User.greeting());
+console.log(User.greeting2());
 
 // -----------------------------------------------------
 // singleton 
@@ -48,7 +48,7 @@ tUser.name = "hero"
 tUser.isLoggedIn = false
 
 
-// console.log(tUser);
+console.log(tUser);
 
 const rUser = {
     email: "somebody@google.com",
@@ -60,7 +60,7 @@ const rUser = {
     }
 }
 
-// console.log(rUser.fullname.userFullName)
+console.log(rUser.fullname.userFullName)
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -69,11 +69,11 @@ const obj3 = {5: "a", 6: "b"}
 const obj4 = {obj1, obj2} // target, source
 
 const obj5 = Object.assign({},obj1,obj2,obj3)
-// console.log(obj4);
-// console.log(obj5);
+console.log(obj4);
+console.log(obj5);
 
 const ob1 = {...obj1,...obj2,...obj3}
-// console.log(ob1);
+console.log(ob1);
 
 
 const users = [
