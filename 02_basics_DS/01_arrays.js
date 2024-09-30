@@ -25,7 +25,7 @@
 // console.log(arr);
 console.log(typeof newArr);
 
-slice and splice
+// slice and splice
 
 console.log("A",arr)
 
