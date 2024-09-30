@@ -16,15 +16,15 @@ const User = {
 
 // Access objects
 
-// console.log(User.email);
-// console.log(User["email"]);
-// console.log(User["full name"]);
-// console.log(User[mySym]);
+console.log(User.email);
+console.log(User["email"]);
+console.log(User["full name"]);
+console.log(User[mySym]);
 
-// User.email = "Subham@yes.com"
-// Object.freeze(User)
-// User.email = "Agarwakdjsdb34d.vvom"
-// console.log(User);
+User.email = "Subham@yes.com"
+Object.freeze(User)
+User.email = "Agarwakdjsdb34d.vvom"
+console.log(User);
 
 User.greeting = function(){
     console.log("Hello viewers!!");
